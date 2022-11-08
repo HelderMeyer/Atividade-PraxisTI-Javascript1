@@ -10,6 +10,14 @@ FORMATAÇÃO GERAL
 }
 
 /*
+FORMATAÇÃO DO BODY
+*/
+
+body{
+    background-color: #024389;
+}
+
+/*
 FORMATAÇÃO DO HEADER__TITULO
 */
 
@@ -91,3 +99,34 @@ FORMATAÇÃO DA MAIN__FORMULARIO
 /*
 FORMATAÇÃO DA SECTION__TABELA
 */
+
+.section__tabela{
+    background-color: #024389;
+}
+
+.tabela{
+    color: whitesmoke;
+    border-collapse: collapse;
+    width: 60%;
+    height: 80px;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.tabela th{
+    background-color: #2d7be8;
+}
+
+.tabela tr{
+    background-color: #4c8ce6;
+}
+
+.tabela th,td{
+    border: whitesmoke solid 1px;
+    padding: 10px;
+}
+
+.tabela tr:nth-child(even){
+    background-color: #114691;
+}
