@@ -1,0 +1,93 @@
+/*
+FORMATAÇÃO GERAL
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+FORMATAÇÃO DO HEADER__TITULO
+*/
+
+.header__titulo{
+    background-color: #3094FF;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.header__titulo h1{
+    color: #ffffff;
+}
+
+/*
+FORMATAÇÃO DA MAIN__FORMULARIO
+*/
+
+.main{
+    background-color: #024389;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 0px 25px 0px;
+}
+
+.main__formulario input{
+    border-radius: 4px;
+    border: #05244f solid 1px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.button__cadastrar{
+    background-color: rgb(8, 179, 8);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button__cadastrar:hover{
+    background-color: #047406;
+}
+
+.button__showAndHideTable {
+    background-color: #2d7be8;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main__formulario__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__formulario__buttons input{
+    width: 48%;
+}
+
+.main__formulario label{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: left;
+}
+
+/*
+FORMATAÇÃO DA SECTION__TABELA
+*/

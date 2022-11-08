@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <header class="header__titulo">
+        <h1>Formulário de Cadastro de Clientes</h1>
+    </header>
+    <main class="main">
+        <form class="main__formulario">
+            <label for="name">Nome completo</label>
+            <input type="text" required id="name" placeholder="Nome">
+            <label for="cpf">CPF</label>
+            <input type="text" required id="cpf" placeholder="CPF">
+            <label for="email">E-mail</label>
+            <input type="text" required id="email" placeholder="E-mail">
+            <label for="phone">Telefone</label>
+            <input type="text" required id="phone" placeholder="Telefone">
+            <div class="main__formulario__buttons">
+                <input type="button" value="Cadastrar" id="button__cadastrar" class="button__cadastrar">
+                <input type="button" id="button__showAndHideTable" class="button__showAndHideTable">
+            </div>
+        </form>
+    </main>
+    <section id="section__tabela" class="section__tabela">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome Completo</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Telefone</th>
+                </tr>
+            </thead>
+            <tbody id="tbody-tabela">
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
